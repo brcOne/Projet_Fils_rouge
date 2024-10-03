@@ -1,0 +1,17 @@
+@startuml
+left to right direction
+
+actor "Admin" as fc
+
+
+rectangle SchoolCommunityPlatform {
+ 
+  usecase "Communities Crud" as UC3
+  
+}
+
+
+fc -- UC3
+
+
+@enduml
